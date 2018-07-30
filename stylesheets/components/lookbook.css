@@ -1,0 +1,195 @@
+
+.lookbook-fall,
+.lookbook-spring,
+.lookbook-winter {
+    display: flex;
+    position: relative;
+}
+
+.lookbook-fall {
+    justify-content: flex-end;
+}
+
+.lookbook-spring {
+    justify-content: flex-start;
+    margin-top: -125px;
+}
+
+.lookbook-winter {
+    justify-content: flex-end;
+    margin-top: -20px;
+    padding-right: 17%;
+}
+
+.lookbook-fall h4,
+.lookbook-spring h4,
+.lookbook-winter h4 {
+    position: absolute;
+}
+
+.lookbook-fall-background,
+.lookbook-winter-background,
+.lookbook-spring-background {
+    position: relative;
+}
+
+.lookbook-fall-background {
+    background-image: url(../../img/fall-winter.png);
+    width: 490px;
+    min-height: 700px;
+    background-size: cover;
+}
+
+.lookbook-fall h4 {
+    top: 50%;
+    left: -40%;
+}
+
+.lookbook-spring-background {
+    background-image: url(../../img/spring-summer.png), url(../../img/spring-summer2.png);
+    width: 750px;
+    min-height: 790px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 100%, 100% 0;
+}
+
+.lookbook-spring h4 {
+    right: -18%;
+    bottom: 40%;
+}
+
+.lookbook-winter-background {
+    background-image: url(../../img/winter.png);
+    width: 495px;
+    min-height: 656px;
+    background-size: cover;
+}
+
+.lookbook-winter h4 {
+    bottom: 10%;
+    left: -19%;
+}
+
+.lookbook-fall svg,
+.lookbook-winter svg,
+.lookbook-spring svg {
+    position: absolute;
+}
+
+.lookbook-fall svg {
+    left: 10%;
+    font-size: 40px;
+    top: 100px;
+}
+
+.lookbook-spring svg {
+    right: 10%;
+    font-size: 40px;
+    bottom: 190px;
+}
+
+.lookbook-winter svg {
+    left: 25%;
+    font-size: 40px;
+    bottom: 180px;
+}
+
+@media all and (max-width: 1200px) {
+
+    .lookbook-winter {
+        padding-right: 0;
+    }
+
+}
+
+
+@media all and (max-width: 992px) {
+    .lookbook-fall,
+    .lookbook-spring,
+    .lookbook-winter {
+
+        justify-content: center;
+        margin-bottom: 40px;
+        margin-top: 110px;
+    }
+
+    .lookbook-fall svg,
+    .lookbook-winter svg,
+    .lookbook-spring svg {
+        display: none;
+    }
+
+    .lookbook-fall h4,
+    .lookbook-spring h4,
+    .lookbook-winter h4 {
+        position: static;
+        /*top: 0;*/
+        /*left: auto;*/
+        margin-top: -50px;
+        text-align: center;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+    .lookbook-fall-background,
+    .lookbook-winter-background,
+    .lookbook-spring-background {
+        width: 100%;
+        min-height: 600px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /*background-position: -45px 45px,45px 0;*/
+    }
+
+
+    lookbook-fall-background,
+    .lookbook-winter-background{
+        background-position: top center;
+        background-size: cover;
+
+    }
+    .lookbook-spring-background{
+
+        background-size: cover;
+
+    }
+
+
+    /*.lookbook-winter,*/
+    /*.lookbook-spring,*/
+    /*.lookbook-fall {*/
+        /*display: block;*/
+    /*}*/
+
+    /*.lookbook-spring-background {*/
+        /*width: auto;*/
+        /*min-height: 400px;*/
+        /*background-size: contain;*/
+        /*background-position: -43px 36px, 45px -31px;*/
+        /*background-repeat: no-repeat;*/
+        /*margin-top: 0;*/
+        /*margin-bottom: 0;*/
+    /*}*/
+
+    /*.lookbook-fall-background,*/
+    /*.lookbook-winter-background {*/
+        /*width: auto;*/
+        /*min-height: 400px;*/
+        /*background-size: contain;*/
+        /*background-repeat: no-repeat;*/
+        /*background-position: center center;*/
+        /*margin-top: 0;*/
+        /*margin-bottom: 0;*/
+    /*}*/
+
+}
+
+
+
+
+
+
+
+
+

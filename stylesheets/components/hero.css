@@ -1,0 +1,47 @@
+.hero{
+    min-height: calc(90vh - 180px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 140px;
+}
+
+.hero-foreground {
+    position: relative;
+}
+
+.hero-background {
+    background-image: url("../../img/hero-bg.png");
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+@media screen and (max-width: 992px) {
+    .hero{
+        margin-bottom: 80px;
+        min-height: calc(80vh - 100px);
+    }
+
+    .hero-background{
+        background-position: top center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .hero{
+
+        margin-bottom: 60px;
+
+    }
+
+
+
+}

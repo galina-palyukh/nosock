@@ -1,0 +1,275 @@
+:root {
+    --global-font-family: 'Microsoft PhagsPa', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --global-font-size: 18px;
+    --global-line-height: 1.42;
+
+    --global-color: #000;
+    --global-inverse-color: #fff;
+
+    --global-link-color: #000;
+    --global-link-hover-color: rgba(0, 0, 0, .6);
+
+
+    --global-background: #fff;
+    --global-inverse-background: #000;
+
+    --global-success-background: #32d296;
+    --global-warning-background: #faa05a;
+    --global-danger-background: #f0506e;
+
+    --global-border-width: 1px;
+    --global-border: #fff;
+
+    --global-margin: 10px;
+
+    --global-gutter: 30px;
+
+    --global-control-height: 40px;
+}
+
+:root {
+    --base-body-background: var(--global-background);
+    --base-body-font-family: var(--global-font-family);
+    --base-body-font-weight: normal;
+    --base-body-font-size: var(--global-font-size);
+    --base-body-line-height: var(--global-line-height);
+    --base-body-color: var(--global-color);
+
+    --base-link-color: var(--global-link-color);
+    --base-link-text-decoration: none;
+    --base-link-hover-color: var(--global-link-hover-color);
+    --base-link-hover-text-decoration: underline;
+
+    --base-strong-font-weight: bolder;
+    --base-code-font-size: var(--global-font-size);
+    --base-code-font-family: Consolas, monaco, monospace;
+
+    --base-ins-color: var(--global-color);
+    --base-mark-background: #ffd;
+    --base-mark-color: var(--global-color);
+    --base-quote-font-style: italic;
+
+    --base-margin-vertical: var(--global-margin);
+
+    --base-heading-font-family: var(--global-font-family);
+    --base-heading-font-weight: bold;
+    --base-heading-color: var(--global-color);
+
+    --base-heading-text-transform: uppercase;
+    /*--base-heading-margin-top: var(--global-margin);*/
+
+    --base-h1-font-size: 48px;
+    --base-h1-line-height: 1.2;
+
+    --base-h2-font-size: 40px;
+    --base-h2-line-height: 1.3;
+
+    --base-h3-font-size: 30px;
+    --base-h3-line-height: 1.4;
+
+    --base-h4-font-size: 24px;
+    --base-h4-line-height: 1.4;
+
+    --base-h5-font-size: 20px;
+    --base-h5-line-height: 1.4;
+
+    --base-h6-font-size: 16px;
+    --base-h6-line-height: 1.4;
+
+    --base-list-padding-left: 0;
+
+    --base-hr-margin-vertical: var(--global-margin);
+    --base-hr-border: var(--global-border-width) solid var(--global-border);
+
+    --base-blockquote-color: #333;
+    --base-blockquote-font-size: var(--global-font-size);
+    --base-blockquote-line-height: 1.5;
+    --base-blockquote-font-style: italic;
+    --base-blockquote-margin-vertical: var(--global-margin);
+    --base-blockquote-footer-color: #333;
+    --base-blockquote-footer-margin-top: var(--global-margin);
+    --base-blockquote-footer-font-size: var(--global-font-size);
+    --base-blockquote-footer-line-height: 1.5;
+
+    --base-pre-font-size: var(--global-font-size);
+    --base-pre-line-height: 1.5;
+    --base-pre-font-family: var(--base-code-font-family);
+    --base-pre-color: var(--global-color);
+
+    --base-selection-background: #fff;
+    --base-selection-color: var(--global-inverse-color);
+}
+
+:root {
+
+    --button-font-family: inherit;
+    --button-font-size: 26px;
+    --button-font-weight: bold;
+    --button-padding: 15px 30px;
+    --button-height: var(--global-control-height);
+
+    --button-color: #fff;
+    --button-background: #000;
+
+    --button-color-hover: #fff;
+    --button-background-hover: rgba(0, 0, 0, .6);
+
+    --button-color-focus: #fff;
+    --button-background-focus: rgba(0, 0, 0, .6);
+
+    --button-color-active: #fff;
+    --button-background-active: rgba(0, 0, 0, .6);
+}
+
+:root {
+    --form-height: var(--global-control-height);
+    --form-line-height: 1.4;
+    --form-padding: 6px 14px;
+
+    --form-background: transparent;
+    --form-color: var(--global-color);
+
+    --form-focus-background: transparent;
+    --form-focus-color: var(--global-color);
+
+    --form-disabled-background: var(--global-color);
+    --form-disabled-color: var(--global-muted-color);
+
+    --form-placeholder-color: var(--global-muted-color);
+
+    --form-invalid-color: var(--global-danger-background);
+    --form-valid-color: var(--global-success-background);
+
+    --form-select-padding-right: 20px;
+    --form-select-option-color: #444;
+
+    --form-radio-size: 16px;
+    --form-radio-margin-top: -4px;
+    --form-radio-background: #fbfbfb;
+
+    --form-radio-checked-background: #fbfbfb;
+
+    --form-radio-checked-focus-background: #fbfbfb;
+
+    --form-radio-disabled-background: #fbfbfb;
+
+    --form-legend-font-size: var(--global-font-size);
+    --form-legend-line-height: 1.4;
+
+    --form-control-margin-bottom: var(--global-margin);
+
+    --form-icon-width: var(--form-height);
+    --form-icon-font-size: var(--global-font-size);
+    --form-icon-color: var(--global-muted-color);
+    --form-icon-hover-color: var(--global-color);
+
+}
+
+
+:root{
+    --table-color: var(--global-color);
+    --table-background: var(--global-background);
+
+    --table-margin-vertical: var(--global-margin);
+
+    --table-cell-padding: 15px;
+
+    --table-divider-border-width: var(--global-border-width);
+    --table-divider-border: var(--global-border-width) solid var(--global-border);
+
+    --table-expand-min-width: 150px;
+}
+
+a{
+    padding: 5px;
+}
+
+
+button,
+input[type="button"],
+input[type="submit"],
+.button {
+    margin: 10px;
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    user-select: none;
+    border-radius: 0;
+    overflow: visible;
+    font: inherit;
+    text-transform: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--button-padding);
+    font-family: var(--button-font-family);
+    font-size: var(--button-font-size);
+    font-weight: var(--button-font-weight);
+    min-height: var(--button-height);
+    text-decoration: none;
+    background: var(--button-background);
+    color: var(--button-color);
+    cursor: pointer;
+}
+
+.inverse {
+    background-color: var(--global-inverse-background);
+    color: var(--global-inverse-color);
+}
+
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+
+    h1{
+        font-size: 38px;
+    }
+
+    h4{
+        font-size: 22px;
+    }
+}
+
+.layout,
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    h1{
+        font-size: 35px;
+    }
+
+    h4{
+        font-size: 20px;
+    }
+}
+
+.layout,
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 640px) {
+
+}
